@@ -1,0 +1,8 @@
+data = pd.DataFrame({
+    'text': ["Urgent! Click here to update your bank details",
+             "Dear customer, your PayPal account has been suspended",
+             "Meeting at 5 PM today",
+             "You have won a $1000 gift card! Claim now",
+             "Let's have coffee tomorrow"],
+    'label': [1, 1, 0, 1, 0]  # 1 = Phishing, 0 = Legitimate
+})
